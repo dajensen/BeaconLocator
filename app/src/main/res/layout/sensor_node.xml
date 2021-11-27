@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/sensor_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sensor_node_image" />
+
+    <TextView
+        android:id="@+id/sensor_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Sensor00"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
